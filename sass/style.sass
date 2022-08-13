@@ -386,6 +386,7 @@ nav
 		display: flex
 		justify-content: space-between
 		align-items: center
+		position: relative
 	&_line
 		width: 299px
 		height: 4px
@@ -396,14 +397,18 @@ nav
 	&_center
 		display: block
 		width: 392px
-		margin: 0 auto
+		position: absolute
+		top: 50%
+		left: 50%
+		margin-right: -50%
+		transform: translate(-50%, -50%)
 
 	&_link
-		
+
 		display: flex
 		justify-content: space-around
 		margin-top: 32px
-		
+
 		a
 			margin: 0 auto
 			color: #070716
@@ -453,5 +458,3 @@ nav
 		text-align: right
 		width: 296px
 		height: 27px
-
-
