@@ -284,7 +284,7 @@ nav
 				width: 14px
 				height: 2px
 				background-color: $main-color
-				transition: 0.3s all
+				transition: 0.5s all
 			&:after
 				content: ''
 				position: absolute
@@ -294,7 +294,7 @@ nav
 				height: 14px
 				width: 2px
 				background-color: $main-color
-				transition: 0.3s all
+				transition: 0.5s all
 			&:hover
 				&:before, &::after
 					background-color: $second-color
@@ -377,4 +377,81 @@ nav
 	text-transform: uppercase
 	text-decoration: none
 	color: #1fbad6
+
+.ftr
+	margin-top: 50%
+	min-height: 148px
+	padding: 14px 23px 0 23px
+	.wrapper
+		display: flex
+		justify-content: space-between
+		align-items: center
+	&_line
+		width: 299px
+		height: 4px
+		background-color: #1fbad6
+		margin: 0 auto
+		margin-top: -35%
+
+	&_center
+		display: block
+		width: 392px
+		margin: 0 auto
+
+	&_link
+		
+		display: flex
+		justify-content: space-around
+		margin-top: 32px
+		
+		a
+			margin: 0 auto
+			color: #070716
+			font-size: 15px
+			font-weight: 300
+			line-height: 15px
+			text-align: left
+			text-transform: uppercase
+			text-decoration: none
+.ftr_help
+	display: flex
+	justify-content: space-between
+	margin-top: 15px
+	a
+		color: #999999
+		font-size: 11px
+		font-weight: 300
+		line-height: 11px
+		text-align: left
+		text-transform: uppercase
+		text-decoration: none
+.ftr_lang
+	display: flex
+	justify-content: center
+	margin-top: 19px
+	a
+		color: #1fbad6
+
+		font-size: 11px
+		font-weight: 400
+		line-height: 11px
+		text-align: center
+		text-transform: uppercase
+		text-decoration: none
+
+.download
+	display: block
+	width: 33%
+	text-align: right
+	position: relative
+	img
+		position: absolute
+		left: 20%
+		display: inline
+		height: 27px
+		margin-right: 7px
+		text-align: right
+		width: 296px
+		height: 27px
+
 
